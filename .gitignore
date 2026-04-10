@@ -1,0 +1,38 @@
+# --- Build & Output ---
+**/build/
+/.gradle/
+/captures/
+*.apk
+*.aab
+*.output.json
+*.hprof
+
+# --- IDE (Android Studio / IntelliJ / VS Code) ---
+.idea/
+.vscode/
+*.iml
+*.iws
+*.swp
+*.swo
+/out/
+.navigation/
+*~
+
+# --- Gradle & Local Config ---
+# IMPORTANT : On ne bloque pas /gradle pour garder libs.versions.toml et le wrapper !
+local.properties
+.gradle
+.incremental
+
+# --- Secrets & Signatures ---
+.env
+*.keystore
+*.jks
+google-services.json
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
