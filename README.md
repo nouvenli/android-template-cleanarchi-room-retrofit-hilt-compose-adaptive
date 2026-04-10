@@ -1,5 +1,5 @@
-# 📱 Android Template : BDD + Réseau + Adaptive UI
-## 🗓 AVRIL 2026
+# Android Template : BDD + Réseau + Adaptive UI
+## AVRIL 2026
 
 Ce projet est un "moule" pour lancer rapidement des applications Android modernes. Il utilise les dernières technos et suit une architecture robuste pour éviter que le code ne devienne un plat de spaghettis ! 🍝
 
@@ -43,6 +43,6 @@ un fichier .gitkeep est à l'intérieur pour éviter que git ignore les dossiers
 2.  **Config Réseau** : Mets à jour l'URL de base dans tes modules Hilt.
 3.  **Config Room** : Crée tes `@Entity` et tes `DAO`, puis mets à jour `AppDatabase`.
 
-## 📜 Licence
+## Licence
 
-Libre d'utilisation pour tout projet personnel ou commercial. Amuse-toi bien avec Kotlin ! 🚀
+Libre d'utilisation pour tout projet personnel ou commercial. Enjoy ! 
