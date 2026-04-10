@@ -1,9 +1,9 @@
 # Android Template : BDD + Réseau + Adaptive UI
 ## AVRIL 2026
 
-Ce projet est un "moule" pour lancer rapidement des applications Android modernes. Il utilise les dernières technos et suit une architecture robuste pour éviter que le code ne devienne un plat de spaghettis ! 🍝
+Ce projet est un "moule" pour lancer rapidement des applications Android modernes. Il utilise les dernières technos et suit une architecture robuste pour éviter que le code ne devienne un plat de spaghettis !
 
-## 🚀 Fonctionnalités Clés
+## Fonctionnalités Clés
 
 *   **Architecture Clean/MVVM** : Séparation claire des responsabilités.
 *   **Injection de dépendances** : Avec **Hilt** pour un code modulaire et testable.
@@ -13,7 +13,7 @@ Ce projet est un "moule" pour lancer rapidement des applications Android moderne
 *   **Adaptatif** : Supporte mobiles, tablettes et pliables via `WindowSizeClass`.
 *   **Images** : Chargement fluide avec **Coil 3**.
 
-## 🛠 Stack Technique
+## Stack Technique
 
 *   **Kotlin 2.3.20** & **Compose BOM 2026.03.01**
 *   **AGP :** 9.1.0 / **KSP :** 2.3.5
@@ -21,7 +21,7 @@ Ce projet est un "moule" pour lancer rapidement des applications Android moderne
 *   **Room :** 2.8.4
 *   **Retrofit :** 3.0.0
 
-## 📂 Structure du Projet (Clean Architecture)
+## Structure du Projet (Clean Architecture)
 
 Les principaux packages sont :
 
@@ -37,7 +37,7 @@ un fichier .gitkeep est à l'intérieur pour éviter que git ignore les dossiers
 
 > **Note pédagogique :** La couche `domain` ne doit dépendre de rien d'autre. C'est du Kotlin pur. Elle définit *ce que l'app fait* (ex: `GetUserNameUseCase`), alors que `data` définit *comment elle le récupère* (ex: via Retrofit).
 
-## 🏁 Comment utiliser ce template ?
+## Comment utiliser ce template ?
 
 1.  **Refactoriser le package** : Change `fr.quinquenaire.templatebddreseauadaptive` par ton propre nom dans `build.gradle.kts` (app) et dans les dossiers `java`.
 2.  **Config Réseau** : Mets à jour l'URL de base dans tes modules Hilt.
