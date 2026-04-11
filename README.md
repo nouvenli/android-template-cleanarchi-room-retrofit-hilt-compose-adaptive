@@ -42,6 +42,7 @@ un fichier .gitkeep est à l'intérieur pour éviter que git ignore les dossiers
 1.  **Refactoriser le package** : Change `fr.quinquenaire.templatebddreseauadaptive` par ton propre nom dans `build.gradle.kts` (app) et dans les dossiers `java`.
 2.  **Config Réseau** : Mets à jour l'URL de base dans tes modules Hilt.
 3.  **Config Room** : Crée tes `@Entity` et tes `DAO`, puis mets à jour `AppDatabase`.
+4.  **Manifest** : il n'y a pas de mainactivity dans ce projet. N'oubliez pas de l'ajouter au Manifest <actvity> avec les intents nécessaires
 
 ## Licence
 
