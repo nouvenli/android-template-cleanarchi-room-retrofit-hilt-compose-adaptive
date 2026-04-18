@@ -1,4 +1,4 @@
-package fr.quinquenaire.projet12joiefull.presentation
+package fr.quinquenaire.templatebddreseauadaptive
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 /**
- * Thème Material 3 de l'application Joiefull.
+ * Thème Material 3 de l'application.
  *
  * Utilise les couleurs dynamiques (Material You) si l'appareil
  * est sous Android 12+ (API 31). Sinon, utilise un thème par défaut.
@@ -24,7 +24,7 @@ import androidx.compose.ui.platform.LocalContext
  * @param content      : les Composables enfants qui héritent du thème
  */
 @Composable
-fun JoiefullTheme(
+fun templatebddreseauadaptiveTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
