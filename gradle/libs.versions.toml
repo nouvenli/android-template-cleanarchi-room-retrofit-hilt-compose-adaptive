@@ -40,6 +40,7 @@ kotlinx-serialization = "1.10.0"
 
 # Coroutines
 coroutines = "1.10.2"
+adaptiveNavigation = "1.2.0"
 
 
 [libraries]
@@ -63,6 +64,7 @@ compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
 compose-material3 = { module = "androidx.compose.material3:material3" }
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-compose-adaptive-navigation = { group = "androidx.compose.material3.adaptive", name = "adaptive-navigation", version.ref = "adaptiveNavigation" }
 
 # Window Size Class (layout adaptatif)
 material3-window-size = { module = "androidx.compose.material3:material3-window-size-class" }
