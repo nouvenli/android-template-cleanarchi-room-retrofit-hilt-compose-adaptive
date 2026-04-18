@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             val windowSizeClass = calculateWindowSizeClass(this)
-            // TODO Mettre le thème
+            templatebddreseauadaptiveTheme{}
         }
     }
 }
